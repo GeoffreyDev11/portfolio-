@@ -1,8 +1,0 @@
-version: '3'
-services:
-  web:
-    # Nom de votre image Docker (peut être votre_nom_utilisateur/nom_projet)
-    build: .
-    # Spécifie que le conteneur doit être redémarré en cas de panne
-    restart: always
-    # Mapping du port du conteneur sur le port de l'hôte
