@@ -1,9 +1,0 @@
-services:
-  web:
-    container_name: apache
-    build:
-      context: ./
-      dockerfile: Dockerfile
-    ports:
-      - "8081:80"
-    pull_policy: build
