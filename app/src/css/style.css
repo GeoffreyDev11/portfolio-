@@ -376,10 +376,9 @@ h3{
     height: 250px;
     background: var(--color-white);
     border-radius: 20px;
-    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
-    overflow: hidden;
+    
 }
-.project-box>i{
+/* .project-box>i{
     font-size: 50px;
     color: #00B5E7;
     margin-bottom: 25px;
@@ -407,7 +406,7 @@ h3{
 .project-box:hover.project-box>label{
     color: var(--color-white);
     z-index: 2;
-}
+} */
 
 /* ----- CONTACT BOX ----- */
 .contact-info{
@@ -636,3 +635,13 @@ footer{
         width: 100%;
     }
 }
+
+
+.projectimg img {
+    width: 400px; /* Taille de l'image pour l'aperçu */
+    height: auto; /* Conserve le ratio de l'image */
+    margin-top: 10px; /* Espace en haut de l'image */
+    cursor: pointer; /* Curseur change quand l'image est cliquée */
+    transition: transform 0.3s ease; /* Animation douce au survol */
+    border-radius: 10px;
+  }
